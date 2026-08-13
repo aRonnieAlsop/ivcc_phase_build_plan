@@ -1,25 +1,42 @@
 import "./BuildPlan.css";
-import logo from "./../assets/logo.svg";
+import logo from "../assets/logo.svg";
+import mountain from "../assets/indian-valley-mountain.png";
 
 function BuildPlan() {
   return (
     <main className="build-plan">
       <div className="proposal-page">
 
-        {/* HEADER */}
-        <header className="proposal-header">
-          <p className="proposal-eyebrow">
-            Indian Valley Chamber of Commerce
-          </p>
+<header className="proposal-header">
+  <div className="proposal-title-row">
 
-          <h1>Phased Website Build Plan</h1>
+    <div className="title-card">
+      <h1>
+        Phased
+        <br />
+        Website
+        <br />
+        Build Plan
+      </h1>
+    </div>
 
-          <p className="proposal-intro">
-            Build the Chamber's most-needed applications first so they can be
-            tested, approved and put to use while the complete new website
-            continues to take shape.
-          </p>
-        </header>
+    <div className="mountain-strip">
+      <img
+        src={mountain}
+        alt="Indian Valley mountain landscape"
+      />
+    </div>
+
+  </div>
+
+  <div className="proposal-intro-wrap">
+    <p className="proposal-intro">
+      Build the Chamber's most-needed applications first so they can be
+      tested, approved and put to use while the complete new website
+      continues to take shape.
+    </p>
+  </div>
+</header>
 
         {/* BUILD MENU */}
         <section className="build-menu">
