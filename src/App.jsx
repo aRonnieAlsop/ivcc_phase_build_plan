@@ -1,7 +1,8 @@
 import BuildPlan from "./components/BuildPlan";
+import InteractiveBuildPlan from "./components/InteractiveBuildPlan";
 
 function App() {
-  return <BuildPlan />;
+  return <InteractiveBuildPlan />;
 }
 
 export default App;
