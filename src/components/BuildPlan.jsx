@@ -1,4 +1,5 @@
 import "./BuildPlan.css";
+import logo from "./../assets/logo.svg";
 
 function BuildPlan() {
   return (
@@ -11,20 +12,16 @@ function BuildPlan() {
             Indian Valley Chamber of Commerce
           </p>
 
-          <h1>
-            Phased Website
-            <br />
-            Build Plan
-          </h1>
+          <h1>Phased Website Build Plan</h1>
 
           <p className="proposal-intro">
-            Build the Chamber's most-needed applications first so they can
-            be tested, approved and put to use while the complete new website
+            Build the Chamber's most-needed applications first so they can be
+            tested, approved and put to use while the complete new website
             continues to take shape.
           </p>
         </header>
 
-        {/* MENU */}
+        {/* BUILD MENU */}
         <section className="build-menu">
           <div className="menu-heading">
             <div>
@@ -33,123 +30,144 @@ function BuildPlan() {
             </div>
 
             <p className="menu-note">
-              Estimated development time + value
+              Estimated Development Time + Value
             </p>
           </div>
 
-          {/* 01 */}
-          <article className="menu-item">
-            <div className="menu-number">01</div>
+          <div className="menu-table">
 
-            <div className="menu-content">
-              <h3>Business Membership Directory + Admin</h3>
-              <p>
-                Searchable member profiles for visitors, residents and
-                tourists, paired with simple Chamber tools to add, edit and
-                remove member listings and images.
-              </p>
-            </div>
+            {/* 01 */}
+            <article className="menu-item">
+              <div className="menu-number">01</div>
 
-            <div className="menu-price">
-              <span>30–40 hrs</span>
-              <strong>$1,500–$2,000</strong>
-              <small>estimated value</small>
-            </div>
-          </article>
+              <div className="menu-content">
+                <h3>Business Membership Directory + Admin</h3>
+                <p>
+                  Searchable member profiles for visitors, residents and
+                  tourists, with simple Chamber tools to add, edit and remove
+                  member listings and images.
+                </p>
+              </div>
 
-          {/* 02 */}
-          <article className="menu-item">
-            <div className="menu-number">02</div>
+              <div className="menu-time">
+                <span>30–40</span>
+                <small>hours</small>
+              </div>
 
-            <div className="menu-content">
-              <h3>Agenda + Public Records Archive</h3>
-              <p>
-                A clear agenda archive searchable by date and keywords, with
-                simple administration for adding, editing and managing public
-                agenda records and PDFs.
-              </p>
-            </div>
+              <div className="menu-price">
+                <strong>$1,500–$2,000</strong>
+                <small>estimated value</small>
+              </div>
+            </article>
 
-            <div className="menu-price">
-              <span>12–18 hrs</span>
-              <strong>$600–$900</strong>
-              <small>estimated value</small>
-            </div>
-          </article>
+            {/* 02 */}
+            <article className="menu-item">
+              <div className="menu-number">02</div>
 
-          {/* 03 */}
-          <article className="menu-item">
-            <div className="menu-number">03</div>
+              <div className="menu-content">
+                <h3>Agenda + Public Records Archive</h3>
+                <p>
+                  A clear archive searchable by date and keywords, with simple
+                  administration for adding and managing agenda records and
+                  PDFs.
+                </p>
+              </div>
 
-            <div className="menu-content">
-              <h3>Member Events + Admin</h3>
-              <p>
-                An elevated presentation of Chamber and member events with
-                easy event management and an upcoming-events component for
-                the future landing page.
-              </p>
-            </div>
+              <div className="menu-time">
+                <span>12–18</span>
+                <small>hours</small>
+              </div>
 
-            <div className="menu-price">
-              <span>14–20 hrs</span>
-              <strong>$700–$1,000</strong>
-              <small>estimated value</small>
-            </div>
-          </article>
+              <div className="menu-price">
+                <strong>$600–$900</strong>
+                <small>estimated value</small>
+              </div>
+            </article>
 
-          {/* 04 */}
-          <article className="menu-item">
-            <div className="menu-number">04</div>
+            {/* 03 */}
+            <article className="menu-item">
+              <div className="menu-number">03</div>
 
-            <div className="menu-content">
-              <h3>Member News + Article Creator</h3>
-              <p>
-                Searchable Member News and local features with an easy article
-                creator for publishing stories, business features, tourism
-                content and Chamber news.
-              </p>
-            </div>
+              <div className="menu-content">
+                <h3>Member Events + Admin</h3>
+                <p>
+                  An elevated presentation of Chamber and member events with
+                  easy event management and an upcoming-events component for
+                  the future landing page.
+                </p>
+              </div>
 
-            <div className="menu-price">
-              <span>14–20 hrs</span>
-              <strong>$700–$1,000</strong>
-              <small>estimated value</small>
-            </div>
-          </article>
+              <div className="menu-time">
+                <span>14–20</span>
+                <small>hours</small>
+              </div>
 
-          {/* 05 */}
-          <article className="menu-item">
-            <div className="menu-number">05</div>
+              <div className="menu-price">
+                <strong>$700–$1,000</strong>
+                <small>estimated value</small>
+              </div>
+            </article>
 
-            <div className="menu-content">
-              <h3>Website Assembly + Overall Design</h3>
-              <p>
-                Landing page, navigation, footer, Board presentation, Bylaws
-                and business resources, tourism information, overall aesthetic,
-                and integration into one cohesive React/Vite website.
-              </p>
-            </div>
+            {/* 04 */}
+            <article className="menu-item">
+              <div className="menu-number">04</div>
 
-            <div className="menu-price">
-              <span>20–30 hrs</span>
-              <strong>$1,000–$1,500</strong>
-              <small>estimated value</small>
-            </div>
-          </article>
+              <div className="menu-content">
+                <h3>Member News + Article Creator</h3>
+                <p>
+                  Searchable Member News and local features with an easy
+                  article creator for business, tourism and Chamber stories.
+                </p>
+              </div>
+
+              <div className="menu-time">
+                <span>14–20</span>
+                <small>hours</small>
+              </div>
+
+              <div className="menu-price">
+                <strong>$700–$1,000</strong>
+                <small>estimated value</small>
+              </div>
+            </article>
+
+            {/* 05 */}
+            <article className="menu-item">
+              <div className="menu-number">05</div>
+
+              <div className="menu-content">
+                <h3>Website Assembly + Overall Design</h3>
+                <p>
+                  Landing page, navigation, footer, Board presentation,
+                  Bylaws, business resources, tourism information, overall
+                  aesthetic and final React/Vite integration.
+                </p>
+              </div>
+
+              <div className="menu-time">
+                <span>20–30</span>
+                <small>hours</small>
+              </div>
+
+              <div className="menu-price">
+                <strong>$1,000–$1,500</strong>
+                <small>estimated value</small>
+              </div>
+            </article>
+
+          </div>
         </section>
 
-        {/* PROJECT TOTAL */}
+        {/* TOTAL */}
         <section className="project-total">
           <div className="value-total">
-            <span>Estimated Development</span>
-            <strong>90–128 hrs</strong>
-            <span className="estimated-value">
-              $4,500–$6,400 estimated value
-            </span>
+            <p>Estimated Development</p>
+            <strong>90–128 HOURS</strong>
+            <span>$4,500–$6,400 estimated value</span>
           </div>
 
           <div className="chamber-price">
-            <span>Chamber Project Price</span>
+            <p>Chamber Project Price</p>
             <strong>$4,000 MAX</strong>
           </div>
         </section>
@@ -159,50 +177,56 @@ function BuildPlan() {
           above.
         </p>
 
-        {/* SMALL PRINT SECTIONS */}
-        <section className="proposal-details">
+        {/* FUTURE MENU */}
+        <section className="future-menu">
+          <div className="future-heading">
+            <span>Future Expansion</span>
+            <strong>Separate Approval</strong>
+          </div>
 
-          <div className="detail-block future">
-            <h4>Future Expansion Menu</h4>
+          <p>
+            Members Login + Resource Center
+            <span>•</span>
+            Member Job Board
+            <span>•</span>
+            Member-to-Member Deals
+            <span>•</span>
+            Community Calendar
+            <span>•</span>
+            Agenda Builder + PDF Generation
+          </p>
+        </section>
+
+        {/* SMALL NOTES */}
+        <section className="proposal-notes">
+          <div className="proposal-note">
+            <h4>Chamber-Owned</h4>
             <p>
-              Members Login + Resource Center &nbsp;•&nbsp; Member Job Board
-              &nbsp;•&nbsp; Member-to-Member Deals &nbsp;•&nbsp; Community
-              Calendar &nbsp;•&nbsp; Agenda Builder + PDF Generation
+              Applications, source code and project infrastructure are built
+              for Chamber ownership and Chamber-controlled access.
+              Authentication is limited to administrative functions that
+              require it.
             </p>
           </div>
 
-          <div className="detail-columns">
-            <div className="detail-block">
-              <h4>Chamber-Owned Infrastructure</h4>
-              <p>
-                New applications, source code and project infrastructure are
-                built for Chamber ownership and Chamber-controlled access.
-                Authentication remains limited to administrative functions
-                that require it.
-              </p>
-            </div>
-
-            <div className="detail-block">
-              <h4>Local Photography</h4>
-              <p>
-                Local and semi-local photography may be incorporated through
-                separately arranged usage permissions. Photography is separate
-                from the $4,000 development cost.
-              </p>
-            </div>
+          <div className="proposal-note">
+            <h4>Local Photography</h4>
+            <p>
+              Local and semi-local photography may be incorporated through
+              separately arranged usage permissions and is separate from the
+              $4,000 development cost.
+            </p>
           </div>
-
         </section>
 
-        {/* DESIGNER FOOTER */}
+        {/* FOOTER */}
         <footer className="proposal-footer">
           <div className="designer">
-            <div className="logo-wrap">
-              <img
-                src="/logo_A_A(1).svg"
-                alt="Arron Alsop logo"
-              />
-            </div>
+            <img
+              className="designer-logo"
+              src={logo}
+              alt="Arron Alsop"
+            />
 
             <div className="designer-info">
               <strong>Arron Alsop</strong>
